@@ -1,0 +1,49 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DataDashboardSpaceX </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="spacex">
+        <div class="maininfo block1 logo">
+          <img src="SpaceX-Logo.png" alt=""/>
+        </div>
+      </div>
+      <div class="datadash">
+        <div class="maininfo block2">
+          <h1 class="white title"> Mission to Mars </h1> </br>
+          <p class="white">Data dashboard of </br>
+            today: <span class="blue">07-03-2021</span>
+          </p>
+        </div>
+      </div>
+      <div class="foodstock">
+        <div class="charts">
+          <p class="white">Food stock</p>
+            <canvas id="StockChart"></canvas>
+        </div>
+      </div>
+      <div class="livingconditions">
+        <div class="charts">
+          <p class="white">Living Conditions</p>
+            <canvas id="LivingChart"></canvas>
+        </div>
+      </div>
+      <div class="traveled">
+        <div class="charts">
+          <p class="white">Traveled distance over time</p>
+            <canvas id="TravelChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="stockchart.js"></script>
+    <script src="livingchart.js"></script>
+  </body>
+</html>

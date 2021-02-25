@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #A6A9AC, #545657);
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.white{
+  color:white;
+}
+
+.blue{
+  color:#0D86FF;
+}
+
+.maininfo{
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px auto;
+  text-align: center;
+}
+
+.charts{
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo{
+  width:50%;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.block1{
+  margin: 20px auto;
+}
